@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>抽獎扭蛋機</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+<div class="theme-switcher">
+  <button id="themeButton">切換深色模式</button>
+</div>
+<div class="machine">
+  <h2>扭蛋抽獎機</h2>
+  <input type="text" id="entry" placeholder="輸入抽獎項目，以逗號分隔">
+  <input type="number" id="quantity" placeholder="抽取數量" min="1" style="width: 100px;">
+  <button id="drawButton">抽獎</button>
+  <div id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
